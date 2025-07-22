@@ -13,7 +13,7 @@ You can write the .img on a flash drive and boot on real hardware. If you want t
 
 dd if=TetOS.img of=/dev/sdb
 
-where /dev/sdb is your inserted falsh drive. If you are not sure which device it is, try fdisk -l.
+where /dev/sdb is your inserted flash drive. If you are not sure which device it is, try fdisk -l.
 
 IMPORTANT: this will re-write the first sectors of your flash drive, rendering it unusable (for other purposes). You may lose data. 
 Back up the sectors first or you'll have to re-format the drive.
